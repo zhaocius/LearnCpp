@@ -1,0 +1,3 @@
+/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles/c_test.dir

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.17)
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+project(c_test)
+aux_source_directory(. DIR_SRC)
+aux_source_directory(common COMMON_SRC)
+list(APPEND DIR_SRC ${COMMON_SRC})
+add_executable(c_test ${DIR_SRC})

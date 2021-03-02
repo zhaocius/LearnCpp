@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test">
+				<Option output="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/c_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test/fast">
+				<Option output="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/c_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/0_Annotation.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/10_Reference.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/11_Time.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/12_IO.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/13_Struct.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/14_Class.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/15_Abstract_Class.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/16_Dynamic_Memory.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/17_Thread_test.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/18_std_function_bind.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/19_Map.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/1_VarAndType.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/23_typedef.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/24_enum.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/25_malloc.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/26_memory_rect.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/27_read_write_file.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/28_explicit.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/2_Const_Constexpr.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/4_static_extern_namespace.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/5_cast.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/6_function.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/8_String.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/9_Pointer.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/9_SmartPointer.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/main.cpp">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
