@@ -1,9 +1,6 @@
 #include <iostream>
 
 
-void getSeconds(int *c);
-void getSeconds(int c);
-
 void pointer_test(){
     int * pt;//key 未初始化的指针
     *pt = 5;   // 严重的错误
@@ -25,11 +22,8 @@ void pointer_test(){
 
     int var = 20;
     int *pp = &var;
-    *pp=3;
-    std::cout << *pp <<std::endl;
-
     void *void_p = pp;
-    int *void_pp = (int *)void_p; //key void *
+    int *int_pp = (int *)void_p; //key void *
 
 
     int tuple[3]={1,2,3};
@@ -38,12 +32,6 @@ void pointer_test(){
         std::cout << *ppp <<std::endl;
         ppp++;       //ppp +1  等于 &tuple[1]
     }
-
-
-    int sec=0;
-    getSeconds(sec);  //传值，不会改变本地变量
-    getSeconds(&sec); //传地址，会改变。
-    std::cout << sec;
 
     long addr = 12241241221L;
     char * test=(char *)addr; //key 直接把long视为一个指针地址
@@ -56,33 +44,16 @@ void pointer_test(){
     int arr[] = {1,2,3,4,5};
     int * p5 = &arr[5];
     int * p6 = std::end(arr);
-    printf("%d", p6 == p5);
-
-
-
+    printf("%d", p6 == p5);  //key end只想数组之后
 
 }
 
-void getSeconds(int *c ) {
-    *c= time(NULL);
-}
-//传递指针给函数
-void getSeconds(int a){
-    a=100;
-}
-
-//函数返回指针
-//不支持在函数外部返回局部变量的地址，除非定义了static
-int * getSeconds(){
-    static int r[3]={1,2,3};
-    return r;
-}
-
-void function(int a );
+void (*pf)(int a );
 void function(int a ){
+    printf("fuction pointer %d",a);
 
 }
-void testFunctionPointer(){
-    void (*pf)(int a );
+void testFunctionPointer(){   //key 函数指针
     pf = function;
+    pf(1);
 }

@@ -1,31 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-
-
-class String {
-public:
-    std::string * str;
-    String(const std::string& param):str(new std::string(param)){}
-    String(const String& string):str(string.str){}
-    ~String() {
-        delete str;
-    }
-};
-
-String delete_test(String str){
-    String str1 = str;
-}
-
-//是如果析构函数里用delete释放内存指针的时候可能会报错, 完整的代码必须重载运算符"=", 并在其中处理内存释放
-void illigel_deleter_test(){
-    String str("1234");
-    delete_test(str);  //key 调用之后，str对应的指针已经被销毁了。 那应该怎么设计？？？
-    std::cout<<*str.str<<std::endl;
-}
-
+#include "common/structs.h"
 
 //new 和malloc()
-//不推荐malloc()，new不仅分配了内存，还创建了对象。
+//key 不推荐malloc()，new不仅分配了内存，还创建了对象。
 void tuple_malloc_and_delete() {
     int SIZE = 10;
     int *p = (int *)malloc(sizeof(int)*SIZE);

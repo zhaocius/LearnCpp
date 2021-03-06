@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "common/structs.h"
 
 //vector的capacity和size
 //size指真实占用的大小，
@@ -8,10 +9,6 @@
 //resize(n)真正扩容，
 //key []下标可以访问容器内对象，但是可能越界。而且不能用于添加元素
 
-struct Vec_Test {
-    int a;
-    float b;
-};
 
 void vector_test() {
     std::vector<int> vec;
@@ -45,19 +42,17 @@ void vector_test() {
     }
 
     //key 存放自定义对象，还是存指针好一点，存对象的话，会涉及到拷贝问题。
-    std::vector<Vec_Test *> vec1;
+    std::vector<Book *> vec1;
     for (int i = 0; i < 5; i++) {
-        Vec_Test *t1 = new Vec_Test;
-        t1->a = 10;
-        t1->b = 12;
+        Book *t1 = new Book;
+        t1->book_id = 10;
         vec1.push_back(t1);
     }
 
-    std::vector<Vec_Test> vec2;
+    std::vector<Book> vec2;
     for (int i = 0; i < 5; i++) {
-        Vec_Test t;
-        t.a = 10;
-        t.b = 12;
+        Book t;
+        t.book_id = 10;
         vec2.push_back(t);
     }
 

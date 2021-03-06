@@ -9,13 +9,10 @@ CMakeFiles/c_test.dir/11_Time.cpp.o: ../11_Time.cpp
 
 CMakeFiles/c_test.dir/12_IO.cpp.o: ../12_IO.cpp
 
-CMakeFiles/c_test.dir/13_Struct.cpp.o: ../13_Struct.cpp
-
-CMakeFiles/c_test.dir/14_Class.cpp.o: ../14_Class.cpp
-
 CMakeFiles/c_test.dir/15_Abstract_Class.cpp.o: ../15_Abstract_Class.cpp
 
 CMakeFiles/c_test.dir/16_Dynamic_Memory.cpp.o: ../16_Dynamic_Memory.cpp
+CMakeFiles/c_test.dir/16_Dynamic_Memory.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/17_Thread_test.cpp.o: ../17_Thread_test.cpp
 
@@ -26,6 +23,7 @@ CMakeFiles/c_test.dir/19_Map.cpp.o: ../19_Map.cpp
 CMakeFiles/c_test.dir/1_VarAndType.cpp.o: ../1_VarAndType.cpp
 
 CMakeFiles/c_test.dir/20_vector.cpp.o: ../20_vector.cpp
+CMakeFiles/c_test.dir/20_vector.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o: ../21_list_deque_queue_stack.cpp
 
@@ -34,6 +32,7 @@ CMakeFiles/c_test.dir/23_typedef.cpp.o: ../23_typedef.cpp
 CMakeFiles/c_test.dir/24_enum.cpp.o: ../24_enum.cpp
 
 CMakeFiles/c_test.dir/25_malloc.cpp.o: ../25_malloc.cpp
+CMakeFiles/c_test.dir/25_malloc.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/26_memory_rect.cpp.o: ../26_memory_rect.cpp
 
@@ -48,6 +47,7 @@ CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o: ../4_static_extern_namesp
 CMakeFiles/c_test.dir/5_cast.cpp.o: ../5_cast.cpp
 
 CMakeFiles/c_test.dir/6_function.cpp.o: ../6_function.cpp
+CMakeFiles/c_test.dir/6_function.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/7_Tuple.cpp.o: ../7_Tuple.cpp
 
@@ -56,11 +56,11 @@ CMakeFiles/c_test.dir/8_String.cpp.o: ../8_String.cpp
 CMakeFiles/c_test.dir/9_Pointer.cpp.o: ../9_Pointer.cpp
 
 CMakeFiles/c_test.dir/9_SmartPointer.cpp.o: ../9_SmartPointer.cpp
+CMakeFiles/c_test.dir/9_SmartPointer.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: ../common/Singleton.cpp
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: ../common/Singleton.h
 
 CMakeFiles/c_test.dir/main.cpp.o: ../common/Singleton.h
 CMakeFiles/c_test.dir/main.cpp.o: ../main.cpp
-CMakeFiles/c_test.dir/main.cpp.o: ../test.cpp
 

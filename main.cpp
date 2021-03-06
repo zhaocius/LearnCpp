@@ -16,14 +16,11 @@
 #include <zconf.h>
 
 #include "common/Singleton.h"
-#include "test.cpp"
+
 
 int main()
 {
-    myspace::Singleton::GetInstance().setCamereWidth(1);
-    printf("%d",myspace::Singleton::GetInstance().getCameraWidth());
-    test();
-    printf("%d",myspace::Singleton::GetInstance().getCameraWidth());
+    printf("hello world");
     return 0;
 }
 

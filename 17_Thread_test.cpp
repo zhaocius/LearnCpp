@@ -10,7 +10,6 @@ void test1();
 int test2();
 
 void async_test(){
-
     std::future<int> async_test= std::async(std::launch::async,test2);
     test1();
     async_test.get();
@@ -19,9 +18,13 @@ void async_test(){
 
 void test1(){
     std::cout << "test1 pid= " << getpid() << std::endl;
+    sleep(1); //秒
+    usleep(1000);//毫秒
     std::cout << "test1 tid=" << std::this_thread::get_id() << std::endl;
 }
 int test2(){
     std::cout << "test2 pid= " << getpid() << std::endl;
+    sleep(2);
     std::cout << "test2 tid=" << std::this_thread::get_id() << std::endl;
+    return 0;
 }

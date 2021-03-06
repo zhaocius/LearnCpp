@@ -17,17 +17,17 @@ extern int c; //key extern不是定义，是声明。 可以不引用别的头�
 
 extern int d =1 ; //key extern加上显示的初始化，就是定义，抵消了extern的作用。
 
-namespace Wahaha {
+namespace mspace {
     class Wahuhu{
         void huhu();
     };
     class Walulu{
         void lulu();
     };
-} //namespace Wahaha
+} //namespace mspace
 
 void namespace_test(){
-    Wahaha::Wahuhu wahuhu;
+    mspace::Wahuhu wahuhu;
 }
 
 

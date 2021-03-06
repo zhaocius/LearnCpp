@@ -4,6 +4,7 @@
 
 #include <cstdio>
 #include <cstdlib>
+#include "common/structs.h"
 
 void malloc_test(){
     double *ptd;
@@ -35,13 +36,6 @@ void malloc_test(){
     int (*p1)[m];
 //    p1=(int(*)[m])malloc(o*m*sizeof(int));   //key 不可以这样写
 }
-
-
-struct Book {
-    char title[50];
-    char author[50];
-    int book_id;
-};
 
 void malloc_test1() {
     Book *ptd;

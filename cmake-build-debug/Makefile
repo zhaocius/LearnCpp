@@ -251,60 +251,6 @@ c_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/12_IO.cpp.s
 .PHONY : 12_IO.cpp.s
 
-13_Struct.o: 13_Struct.cpp.o
-
-.PHONY : 13_Struct.o
-
-# target to build an object file
-13_Struct.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13_Struct.cpp.o
-.PHONY : 13_Struct.cpp.o
-
-13_Struct.i: 13_Struct.cpp.i
-
-.PHONY : 13_Struct.i
-
-# target to preprocess a source file
-13_Struct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13_Struct.cpp.i
-.PHONY : 13_Struct.cpp.i
-
-13_Struct.s: 13_Struct.cpp.s
-
-.PHONY : 13_Struct.s
-
-# target to generate assembly for a file
-13_Struct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13_Struct.cpp.s
-.PHONY : 13_Struct.cpp.s
-
-14_Class.o: 14_Class.cpp.o
-
-.PHONY : 14_Class.o
-
-# target to build an object file
-14_Class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/14_Class.cpp.o
-.PHONY : 14_Class.cpp.o
-
-14_Class.i: 14_Class.cpp.i
-
-.PHONY : 14_Class.i
-
-# target to preprocess a source file
-14_Class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/14_Class.cpp.i
-.PHONY : 14_Class.cpp.i
-
-14_Class.s: 14_Class.cpp.s
-
-.PHONY : 14_Class.s
-
-# target to generate assembly for a file
-14_Class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/14_Class.cpp.s
-.PHONY : 14_Class.cpp.s
-
 15_Abstract_Class.o: 15_Abstract_Class.cpp.o
 
 .PHONY : 15_Abstract_Class.o
@@ -974,12 +920,6 @@ help:
 	@echo "... 12_IO.o"
 	@echo "... 12_IO.i"
 	@echo "... 12_IO.s"
-	@echo "... 13_Struct.o"
-	@echo "... 13_Struct.i"
-	@echo "... 13_Struct.s"
-	@echo "... 14_Class.o"
-	@echo "... 14_Class.i"
-	@echo "... 14_Class.s"
 	@echo "... 15_Abstract_Class.o"
 	@echo "... 15_Abstract_Class.i"
 	@echo "... 15_Abstract_Class.s"

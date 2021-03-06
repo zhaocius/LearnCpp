@@ -92,12 +92,6 @@
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/12_IO.cpp">
 			<Option target="c_test"/>
 		</Unit>
-		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/13_Struct.cpp">
-			<Option target="c_test"/>
-		</Unit>
-		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/14_Class.cpp">
-			<Option target="c_test"/>
-		</Unit>
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/15_Abstract_Class.cpp">
 			<Option target="c_test"/>
 		</Unit>
