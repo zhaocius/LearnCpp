@@ -42,17 +42,17 @@ void vector_test() {
     }
 
     //key 存放自定义对象，还是存指针好一点，存对象的话，会涉及到拷贝问题。
-    std::vector<Book *> vec1;
+    std::vector<Malloc_Test *> vec1;
     for (int i = 0; i < 5; i++) {
-        Book *t1 = new Book;
-        t1->book_id = 10;
+        Malloc_Test *t1 = new Malloc_Test;
+        t1->a = 10;
         vec1.push_back(t1);
     }
 
-    std::vector<Book> vec2;
+    std::vector<Malloc_Test> vec2;
     for (int i = 0; i < 5; i++) {
-        Book t;
-        t.book_id = 10;
+        Malloc_Test t;
+        t.a = 10;
         vec2.push_back(t);
     }
 
@@ -62,8 +62,8 @@ void vector_test() {
 
     std::vector<int> vec4(15,3);  //小括号，15个元素，每个元素都是3。
     std::vector<int> vec5{15,3};   // 大括号，2个元素， 15 和 3
-    std::vector<int> vec6 = vec5;   // 副本
-    std::vector<int> vec7(vec6);   // 副本
+    std::vector<int> vec6 = vec5;   //key 副本
+    std::vector<int> vec7(vec6);   //key 副本
 
 
 

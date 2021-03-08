@@ -16,11 +16,16 @@
 #include <zconf.h>
 
 #include "common/Singleton.h"
+#include "common/structs.h"
 
 
 int main()
 {
     printf("hello world");
+
+    Screen scr1,scr2;
+    scr1=scr2;
+    Screen scr3(scr1);
     return 0;
 }
 

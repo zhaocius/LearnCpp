@@ -38,8 +38,8 @@ void malloc_test(){
 }
 
 void malloc_test1() {
-    Book *ptd;
-    ptd = (Book *) malloc(sizeof(Book));
+    Malloc_Test *ptd;
+    ptd = (Malloc_Test *) malloc(sizeof(Malloc_Test));
     if (ptd == NULL) {
         printf("未能分配到要求的内存");
     }

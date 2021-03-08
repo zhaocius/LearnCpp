@@ -9,31 +9,22 @@
 #include <stdio.h>
 #include <iostream>
 
-
-typedef struct Book
-{
-    char title[50];
-    char *author;
-    int book_id;
-} Book;
-
 typedef struct Malloc_Test
 {
-    int a, b;
-    int *p;
+    int a;
+    char *p;
 
     void hello();
 
     Malloc_Test()
     {
-        p = (int *) malloc(sizeof(int) * 100000);
+        p = (char *) malloc(sizeof(char) * 100000);
     }
 
-    Malloc_Test(int a, int b)
+    Malloc_Test(int a)
     {
         this->a = a;
-        this->b = b;
-        p = (int *) malloc(sizeof(int) * 100000);
+        p = (char *) malloc(sizeof(char) * 100000);
     }
 
     ~Malloc_Test()
@@ -93,4 +84,13 @@ private:
     int w;
     int h;
 };
+
+class Copy_Test
+{
+public:
+    Copy_Test& operator=(const Copy_Test&);
+    int a;
+    char* p;
+};
+
 #endif //C_TEST_STRUCTS_H
