@@ -413,33 +413,6 @@ c_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/1_VarAndType.cpp.s
 .PHONY : 1_VarAndType.cpp.s
 
-20_vector.o: 20_vector.cpp.o
-
-.PHONY : 20_vector.o
-
-# target to build an object file
-20_vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/20_vector.cpp.o
-.PHONY : 20_vector.cpp.o
-
-20_vector.i: 20_vector.cpp.i
-
-.PHONY : 20_vector.i
-
-# target to preprocess a source file
-20_vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/20_vector.cpp.i
-.PHONY : 20_vector.cpp.i
-
-20_vector.s: 20_vector.cpp.s
-
-.PHONY : 20_vector.s
-
-# target to generate assembly for a file
-20_vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/20_vector.cpp.s
-.PHONY : 20_vector.cpp.s
-
 21_list_deque_queue_stack.o: 21_list_deque_queue_stack.cpp.o
 
 .PHONY : 21_list_deque_queue_stack.o
@@ -466,6 +439,33 @@ c_test/fast:
 21_list_deque_queue_stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.s
 .PHONY : 21_list_deque_queue_stack.cpp.s
+
+22_friend.o: 22_friend.cpp.o
+
+.PHONY : 22_friend.o
+
+# target to build an object file
+22_friend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/22_friend.cpp.o
+.PHONY : 22_friend.cpp.o
+
+22_friend.i: 22_friend.cpp.i
+
+.PHONY : 22_friend.i
+
+# target to preprocess a source file
+22_friend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/22_friend.cpp.i
+.PHONY : 22_friend.cpp.i
+
+22_friend.s: 22_friend.cpp.s
+
+.PHONY : 22_friend.s
+
+# target to generate assembly for a file
+22_friend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/22_friend.cpp.s
+.PHONY : 22_friend.cpp.s
 
 23_typedef.o: 23_typedef.cpp.o
 
@@ -629,6 +629,33 @@ c_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/28_explicit.cpp.s
 .PHONY : 28_explicit.cpp.s
 
+29_Copy_Test.o: 29_Copy_Test.cpp.o
+
+.PHONY : 29_Copy_Test.o
+
+# target to build an object file
+29_Copy_Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/29_Copy_Test.cpp.o
+.PHONY : 29_Copy_Test.cpp.o
+
+29_Copy_Test.i: 29_Copy_Test.cpp.i
+
+.PHONY : 29_Copy_Test.i
+
+# target to preprocess a source file
+29_Copy_Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/29_Copy_Test.cpp.i
+.PHONY : 29_Copy_Test.cpp.i
+
+29_Copy_Test.s: 29_Copy_Test.cpp.s
+
+.PHONY : 29_Copy_Test.s
+
+# target to generate assembly for a file
+29_Copy_Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/29_Copy_Test.cpp.s
+.PHONY : 29_Copy_Test.cpp.s
+
 2_Const_Constexpr.o: 2_Const_Constexpr.cpp.o
 
 .PHONY : 2_Const_Constexpr.o
@@ -737,32 +764,32 @@ c_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/6_function.cpp.s
 .PHONY : 6_function.cpp.s
 
-7_Tuple.o: 7_Tuple.cpp.o
+7_Tuple_vec_array.o: 7_Tuple_vec_array.cpp.o
 
-.PHONY : 7_Tuple.o
+.PHONY : 7_Tuple_vec_array.o
 
 # target to build an object file
-7_Tuple.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple.cpp.o
-.PHONY : 7_Tuple.cpp.o
+7_Tuple_vec_array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o
+.PHONY : 7_Tuple_vec_array.cpp.o
 
-7_Tuple.i: 7_Tuple.cpp.i
+7_Tuple_vec_array.i: 7_Tuple_vec_array.cpp.i
 
-.PHONY : 7_Tuple.i
+.PHONY : 7_Tuple_vec_array.i
 
 # target to preprocess a source file
-7_Tuple.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple.cpp.i
-.PHONY : 7_Tuple.cpp.i
+7_Tuple_vec_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.i
+.PHONY : 7_Tuple_vec_array.cpp.i
 
-7_Tuple.s: 7_Tuple.cpp.s
+7_Tuple_vec_array.s: 7_Tuple_vec_array.cpp.s
 
-.PHONY : 7_Tuple.s
+.PHONY : 7_Tuple_vec_array.s
 
 # target to generate assembly for a file
-7_Tuple.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple.cpp.s
-.PHONY : 7_Tuple.cpp.s
+7_Tuple_vec_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.s
+.PHONY : 7_Tuple_vec_array.cpp.s
 
 8_String.o: 8_String.cpp.o
 
@@ -938,12 +965,12 @@ help:
 	@echo "... 1_VarAndType.o"
 	@echo "... 1_VarAndType.i"
 	@echo "... 1_VarAndType.s"
-	@echo "... 20_vector.o"
-	@echo "... 20_vector.i"
-	@echo "... 20_vector.s"
 	@echo "... 21_list_deque_queue_stack.o"
 	@echo "... 21_list_deque_queue_stack.i"
 	@echo "... 21_list_deque_queue_stack.s"
+	@echo "... 22_friend.o"
+	@echo "... 22_friend.i"
+	@echo "... 22_friend.s"
 	@echo "... 23_typedef.o"
 	@echo "... 23_typedef.i"
 	@echo "... 23_typedef.s"
@@ -962,6 +989,9 @@ help:
 	@echo "... 28_explicit.o"
 	@echo "... 28_explicit.i"
 	@echo "... 28_explicit.s"
+	@echo "... 29_Copy_Test.o"
+	@echo "... 29_Copy_Test.i"
+	@echo "... 29_Copy_Test.s"
 	@echo "... 2_Const_Constexpr.o"
 	@echo "... 2_Const_Constexpr.i"
 	@echo "... 2_Const_Constexpr.s"
@@ -974,9 +1004,9 @@ help:
 	@echo "... 6_function.o"
 	@echo "... 6_function.i"
 	@echo "... 6_function.s"
-	@echo "... 7_Tuple.o"
-	@echo "... 7_Tuple.i"
-	@echo "... 7_Tuple.s"
+	@echo "... 7_Tuple_vec_array.o"
+	@echo "... 7_Tuple_vec_array.i"
+	@echo "... 7_Tuple_vec_array.s"
 	@echo "... 8_String.o"
 	@echo "... 8_String.i"
 	@echo "... 8_String.s"

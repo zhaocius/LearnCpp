@@ -1,4 +1,5 @@
 #include <iostream>
+#include "common/structs.h"
 
 const int WIDTH = 5;     //限定一个变量为只读。
 constexpr int HEIGHT = 5; //这是一个常量，编译期间就确定了。
@@ -6,11 +7,11 @@ constexpr int HEIGHT = 5; //这是一个常量，编译期间就确定了。
 void const_test() {
 
     double rates[5] = {88.99, 100.12, 59.45, 183.11, 340.5};
-    double * const pc = rates;
+    double * const pc = rates; //key const出现在*右边，指针自身是常量
     *pc = 92.99;
 //    pc = &rates[2]; //key 顶层const， pc的值不可变，即指向的地址不可变。
 
-    const double * p = rates;
+    const double * p = rates;  //key const出现在*左边，被指物是常量
     p=&rates[2];
 //    *p = 11;  //key 底层const，p能指向别处，但是解引用后的值不可变
 
@@ -41,4 +42,16 @@ void constexpr_test()
 //    constexpr int k = i+1; //key constexpr 语义是常量
 
 }
+
+void ptr_of_ptr(const Screen** screen){  //key !!!! why
+    *screen = new Screen(3,3);
+}
+
+void test_ptr_of_ptr(){
+    const Screen* p = nullptr;
+    ptr_of_ptr(&p);
+    printf("%d, ",p->w);
+}
+
+
 

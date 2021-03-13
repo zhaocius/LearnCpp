@@ -22,10 +22,10 @@ CMakeFiles/c_test.dir/19_Map.cpp.o: ../19_Map.cpp
 
 CMakeFiles/c_test.dir/1_VarAndType.cpp.o: ../1_VarAndType.cpp
 
-CMakeFiles/c_test.dir/20_vector.cpp.o: ../20_vector.cpp
-CMakeFiles/c_test.dir/20_vector.cpp.o: ../common/structs.h
-
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o: ../21_list_deque_queue_stack.cpp
+
+CMakeFiles/c_test.dir/22_friend.cpp.o: ../22_friend.cpp
+CMakeFiles/c_test.dir/22_friend.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/23_typedef.cpp.o: ../23_typedef.cpp
 
@@ -40,7 +40,11 @@ CMakeFiles/c_test.dir/27_read_write_file.cpp.o: ../27_read_write_file.cpp
 
 CMakeFiles/c_test.dir/28_explicit.cpp.o: ../28_explicit.cpp
 
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.o: ../29_Copy_Test.cpp
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.o: ../common/structs.h
+
 CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o: ../2_Const_Constexpr.cpp
+CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o: ../4_static_extern_namespace.cpp
 
@@ -49,7 +53,8 @@ CMakeFiles/c_test.dir/5_cast.cpp.o: ../5_cast.cpp
 CMakeFiles/c_test.dir/6_function.cpp.o: ../6_function.cpp
 CMakeFiles/c_test.dir/6_function.cpp.o: ../common/structs.h
 
-CMakeFiles/c_test.dir/7_Tuple.cpp.o: ../7_Tuple.cpp
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o: ../7_Tuple_vec_array.cpp
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o: ../common/structs.h
 
 CMakeFiles/c_test.dir/8_String.cpp.o: ../8_String.cpp
 
@@ -61,6 +66,8 @@ CMakeFiles/c_test.dir/9_SmartPointer.cpp.o: ../common/structs.h
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: ../common/Singleton.cpp
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: ../common/Singleton.h
 
+CMakeFiles/c_test.dir/main.cpp.o: ../22_friend.cpp
 CMakeFiles/c_test.dir/main.cpp.o: ../common/Singleton.h
+CMakeFiles/c_test.dir/main.cpp.o: ../common/structs.h
 CMakeFiles/c_test.dir/main.cpp.o: ../main.cpp
 

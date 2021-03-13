@@ -17,15 +17,12 @@
 
 #include "common/Singleton.h"
 #include "common/structs.h"
+#include "22_friend.cpp"
 
-
+using namespace std;
 int main()
 {
-    printf("hello world");
-
-    Screen scr1,scr2;
-    scr1=scr2;
-    Screen scr3(scr1);
+    test_friend();
     return 0;
 }
 

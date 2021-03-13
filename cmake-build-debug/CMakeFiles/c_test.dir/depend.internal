@@ -22,11 +22,11 @@ CMakeFiles/c_test.dir/19_Map.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/19_Map.cpp
 CMakeFiles/c_test.dir/1_VarAndType.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/1_VarAndType.cpp
-CMakeFiles/c_test.dir/20_vector.cpp.o
- /Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp
- /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp
+CMakeFiles/c_test.dir/22_friend.cpp.o
+ /Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp
+ /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
 CMakeFiles/c_test.dir/23_typedef.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/23_typedef.cpp
 CMakeFiles/c_test.dir/24_enum.cpp.o
@@ -40,8 +40,12 @@ CMakeFiles/c_test.dir/27_read_write_file.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/27_read_write_file.cpp
 CMakeFiles/c_test.dir/28_explicit.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/28_explicit.cpp
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.o
+ /Users/zhaozi/Documents/4.C_Project/C_Test/29_Copy_Test.cpp
+ /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
 CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/2_Const_Constexpr.cpp
+ /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
 CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/4_static_extern_namespace.cpp
 CMakeFiles/c_test.dir/5_cast.cpp.o
@@ -49,8 +53,9 @@ CMakeFiles/c_test.dir/5_cast.cpp.o
 CMakeFiles/c_test.dir/6_function.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/6_function.cpp
  /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
-CMakeFiles/c_test.dir/7_Tuple.cpp.o
- /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o
+ /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple_vec_array.cpp
+ /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
 CMakeFiles/c_test.dir/8_String.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/8_String.cpp
 CMakeFiles/c_test.dir/9_Pointer.cpp.o
@@ -62,5 +67,7 @@ CMakeFiles/c_test.dir/common/Singleton.cpp.o
  /Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.cpp
  /Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.h
 CMakeFiles/c_test.dir/main.cpp.o
+ /Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp
  /Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.h
+ /Users/zhaozi/Documents/4.C_Project/C_Test/common/structs.h
  /Users/zhaozi/Documents/4.C_Project/C_Test/main.cpp

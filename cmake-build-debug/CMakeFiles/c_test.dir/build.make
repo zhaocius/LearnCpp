@@ -207,22 +207,9 @@ CMakeFiles/c_test.dir/1_VarAndType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/1_VarAndType.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/1_VarAndType.cpp -o CMakeFiles/c_test.dir/1_VarAndType.cpp.s
 
-CMakeFiles/c_test.dir/20_vector.cpp.o: CMakeFiles/c_test.dir/flags.make
-CMakeFiles/c_test.dir/20_vector.cpp.o: ../20_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/c_test.dir/20_vector.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/20_vector.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp
-
-CMakeFiles/c_test.dir/20_vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/20_vector.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp > CMakeFiles/c_test.dir/20_vector.cpp.i
-
-CMakeFiles/c_test.dir/20_vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/20_vector.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp -o CMakeFiles/c_test.dir/20_vector.cpp.s
-
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o: ../21_list_deque_queue_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp
 
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.i: cmake_force
@@ -232,6 +219,19 @@ CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.i: cmake_force
 CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp -o CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.s
+
+CMakeFiles/c_test.dir/22_friend.cpp.o: CMakeFiles/c_test.dir/flags.make
+CMakeFiles/c_test.dir/22_friend.cpp.o: ../22_friend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/c_test.dir/22_friend.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/22_friend.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp
+
+CMakeFiles/c_test.dir/22_friend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/22_friend.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp > CMakeFiles/c_test.dir/22_friend.cpp.i
+
+CMakeFiles/c_test.dir/22_friend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/22_friend.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp -o CMakeFiles/c_test.dir/22_friend.cpp.s
 
 CMakeFiles/c_test.dir/23_typedef.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/23_typedef.cpp.o: ../23_typedef.cpp
@@ -311,9 +311,22 @@ CMakeFiles/c_test.dir/28_explicit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/28_explicit.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/28_explicit.cpp -o CMakeFiles/c_test.dir/28_explicit.cpp.s
 
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.o: CMakeFiles/c_test.dir/flags.make
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.o: ../29_Copy_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/c_test.dir/29_Copy_Test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/29_Copy_Test.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/29_Copy_Test.cpp
+
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/29_Copy_Test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaozi/Documents/4.C_Project/C_Test/29_Copy_Test.cpp > CMakeFiles/c_test.dir/29_Copy_Test.cpp.i
+
+CMakeFiles/c_test.dir/29_Copy_Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/29_Copy_Test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/29_Copy_Test.cpp -o CMakeFiles/c_test.dir/29_Copy_Test.cpp.s
+
 CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o: ../2_Const_Constexpr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/2_Const_Constexpr.cpp
 
 CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.i: cmake_force
@@ -326,7 +339,7 @@ CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o: ../4_static_extern_namespace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/4_static_extern_namespace.cpp
 
 CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.i: cmake_force
@@ -339,7 +352,7 @@ CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/5_cast.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/5_cast.cpp.o: ../5_cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/c_test.dir/5_cast.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/c_test.dir/5_cast.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/5_cast.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/5_cast.cpp
 
 CMakeFiles/c_test.dir/5_cast.cpp.i: cmake_force
@@ -352,7 +365,7 @@ CMakeFiles/c_test.dir/5_cast.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/6_function.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/6_function.cpp.o: ../6_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/c_test.dir/6_function.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/c_test.dir/6_function.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/6_function.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/6_function.cpp
 
 CMakeFiles/c_test.dir/6_function.cpp.i: cmake_force
@@ -363,22 +376,22 @@ CMakeFiles/c_test.dir/6_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/6_function.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/6_function.cpp -o CMakeFiles/c_test.dir/6_function.cpp.s
 
-CMakeFiles/c_test.dir/7_Tuple.cpp.o: CMakeFiles/c_test.dir/flags.make
-CMakeFiles/c_test.dir/7_Tuple.cpp.o: ../7_Tuple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/c_test.dir/7_Tuple.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/7_Tuple.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o: CMakeFiles/c_test.dir/flags.make
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o: ../7_Tuple_vec_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple_vec_array.cpp
 
-CMakeFiles/c_test.dir/7_Tuple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/7_Tuple.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp > CMakeFiles/c_test.dir/7_Tuple.cpp.i
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple_vec_array.cpp > CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.i
 
-CMakeFiles/c_test.dir/7_Tuple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/7_Tuple.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp -o CMakeFiles/c_test.dir/7_Tuple.cpp.s
+CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple_vec_array.cpp -o CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.s
 
 CMakeFiles/c_test.dir/8_String.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/8_String.cpp.o: ../8_String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/c_test.dir/8_String.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/c_test.dir/8_String.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/8_String.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/8_String.cpp
 
 CMakeFiles/c_test.dir/8_String.cpp.i: cmake_force
@@ -391,7 +404,7 @@ CMakeFiles/c_test.dir/8_String.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/9_Pointer.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/9_Pointer.cpp.o: ../9_Pointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/c_test.dir/9_Pointer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/c_test.dir/9_Pointer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/9_Pointer.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/9_Pointer.cpp
 
 CMakeFiles/c_test.dir/9_Pointer.cpp.i: cmake_force
@@ -404,7 +417,7 @@ CMakeFiles/c_test.dir/9_Pointer.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/9_SmartPointer.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/9_SmartPointer.cpp.o: ../9_SmartPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/c_test.dir/9_SmartPointer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/c_test.dir/9_SmartPointer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/9_SmartPointer.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/9_SmartPointer.cpp
 
 CMakeFiles/c_test.dir/9_SmartPointer.cpp.i: cmake_force
@@ -417,7 +430,7 @@ CMakeFiles/c_test.dir/9_SmartPointer.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/main.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/c_test.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/c_test.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/main.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/main.cpp
 
 CMakeFiles/c_test.dir/main.cpp.i: cmake_force
@@ -430,7 +443,7 @@ CMakeFiles/c_test.dir/main.cpp.s: cmake_force
 
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/common/Singleton.cpp.o: ../common/Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/c_test.dir/common/Singleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/c_test.dir/common/Singleton.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/common/Singleton.cpp.o -c /Users/zhaozi/Documents/4.C_Project/C_Test/common/Singleton.cpp
 
 CMakeFiles/c_test.dir/common/Singleton.cpp.i: cmake_force
@@ -453,19 +466,20 @@ c_test_OBJECTS = \
 "CMakeFiles/c_test.dir/18_std_function_bind.cpp.o" \
 "CMakeFiles/c_test.dir/19_Map.cpp.o" \
 "CMakeFiles/c_test.dir/1_VarAndType.cpp.o" \
-"CMakeFiles/c_test.dir/20_vector.cpp.o" \
 "CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o" \
+"CMakeFiles/c_test.dir/22_friend.cpp.o" \
 "CMakeFiles/c_test.dir/23_typedef.cpp.o" \
 "CMakeFiles/c_test.dir/24_enum.cpp.o" \
 "CMakeFiles/c_test.dir/25_malloc.cpp.o" \
 "CMakeFiles/c_test.dir/26_memory_rect.cpp.o" \
 "CMakeFiles/c_test.dir/27_read_write_file.cpp.o" \
 "CMakeFiles/c_test.dir/28_explicit.cpp.o" \
+"CMakeFiles/c_test.dir/29_Copy_Test.cpp.o" \
 "CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o" \
 "CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o" \
 "CMakeFiles/c_test.dir/5_cast.cpp.o" \
 "CMakeFiles/c_test.dir/6_function.cpp.o" \
-"CMakeFiles/c_test.dir/7_Tuple.cpp.o" \
+"CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o" \
 "CMakeFiles/c_test.dir/8_String.cpp.o" \
 "CMakeFiles/c_test.dir/9_Pointer.cpp.o" \
 "CMakeFiles/c_test.dir/9_SmartPointer.cpp.o" \
@@ -485,19 +499,20 @@ c_test: CMakeFiles/c_test.dir/17_Thread_test.cpp.o
 c_test: CMakeFiles/c_test.dir/18_std_function_bind.cpp.o
 c_test: CMakeFiles/c_test.dir/19_Map.cpp.o
 c_test: CMakeFiles/c_test.dir/1_VarAndType.cpp.o
-c_test: CMakeFiles/c_test.dir/20_vector.cpp.o
 c_test: CMakeFiles/c_test.dir/21_list_deque_queue_stack.cpp.o
+c_test: CMakeFiles/c_test.dir/22_friend.cpp.o
 c_test: CMakeFiles/c_test.dir/23_typedef.cpp.o
 c_test: CMakeFiles/c_test.dir/24_enum.cpp.o
 c_test: CMakeFiles/c_test.dir/25_malloc.cpp.o
 c_test: CMakeFiles/c_test.dir/26_memory_rect.cpp.o
 c_test: CMakeFiles/c_test.dir/27_read_write_file.cpp.o
 c_test: CMakeFiles/c_test.dir/28_explicit.cpp.o
+c_test: CMakeFiles/c_test.dir/29_Copy_Test.cpp.o
 c_test: CMakeFiles/c_test.dir/2_Const_Constexpr.cpp.o
 c_test: CMakeFiles/c_test.dir/4_static_extern_namespace.cpp.o
 c_test: CMakeFiles/c_test.dir/5_cast.cpp.o
 c_test: CMakeFiles/c_test.dir/6_function.cpp.o
-c_test: CMakeFiles/c_test.dir/7_Tuple.cpp.o
+c_test: CMakeFiles/c_test.dir/7_Tuple_vec_array.cpp.o
 c_test: CMakeFiles/c_test.dir/8_String.cpp.o
 c_test: CMakeFiles/c_test.dir/9_Pointer.cpp.o
 c_test: CMakeFiles/c_test.dir/9_SmartPointer.cpp.o
@@ -505,7 +520,7 @@ c_test: CMakeFiles/c_test.dir/main.cpp.o
 c_test: CMakeFiles/c_test.dir/common/Singleton.cpp.o
 c_test: CMakeFiles/c_test.dir/build.make
 c_test: CMakeFiles/c_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable c_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhaozi/Documents/4.C_Project/C_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable c_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

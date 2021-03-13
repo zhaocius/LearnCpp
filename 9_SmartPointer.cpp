@@ -9,6 +9,12 @@ void ptr_test(){
     {
         *test = "hi";
     }
+
+    std::unique_ptr<std::string> test1;
+    if(test1 && test1->empty())
+    {
+        *test1 = "hi";
+    }
 }
 
 //没有拷贝构造函数、只有移动构造函数、不能多个unique_ptr对象共享一段内存。可自定义delete函数。

@@ -110,10 +110,10 @@
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/1_VarAndType.cpp">
 			<Option target="c_test"/>
 		</Unit>
-		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/20_vector.cpp">
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp">
 			<Option target="c_test"/>
 		</Unit>
-		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/21_list_deque_queue_stack.cpp">
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/22_friend.cpp">
 			<Option target="c_test"/>
 		</Unit>
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/23_typedef.cpp">
@@ -134,6 +134,9 @@
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/28_explicit.cpp">
 			<Option target="c_test"/>
 		</Unit>
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/29_Copy_Test.cpp">
+			<Option target="c_test"/>
+		</Unit>
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/2_Const_Constexpr.cpp">
 			<Option target="c_test"/>
 		</Unit>
@@ -146,7 +149,7 @@
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/6_function.cpp">
 			<Option target="c_test"/>
 		</Unit>
-		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple.cpp">
+		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/7_Tuple_vec_array.cpp">
 			<Option target="c_test"/>
 		</Unit>
 		<Unit filename="/Users/zhaozi/Documents/4.C_Project/C_Test/8_String.cpp">
