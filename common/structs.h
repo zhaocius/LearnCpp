@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <stdio.h>
 #include <iostream>
+#include <vector>
 
 typedef struct Malloc_Test
 {
@@ -31,7 +32,7 @@ typedef struct Malloc_Test
     {
         free(p);
     }
-} SP_Test;
+} Malloc_Test;
 
 class New_Test
 {
@@ -72,5 +73,11 @@ public:
     char* p;
 };
 const Copy_Test operator*(const Copy_Test&,const Copy_Test&); //key 需要定义在class外面
+
+template <class T>
+typedef struct Initializer_List{
+    std::vector<T> v;
+    Initializer_List(std::initializer_list<T> l):v(l){}
+};
 
 #endif //C_TEST_STRUCTS_H

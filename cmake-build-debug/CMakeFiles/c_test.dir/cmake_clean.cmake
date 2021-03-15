@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_test.dir/10_Reference.cpp.o"
   "CMakeFiles/c_test.dir/11_Time.cpp.o"
   "CMakeFiles/c_test.dir/12_IO.cpp.o"
+  "CMakeFiles/c_test.dir/13initializer_list.cpp.o"
   "CMakeFiles/c_test.dir/15_Abstract_Class.cpp.o"
   "CMakeFiles/c_test.dir/16_Dynamic_Memory.cpp.o"
   "CMakeFiles/c_test.dir/17_Thread_test.cpp.o"

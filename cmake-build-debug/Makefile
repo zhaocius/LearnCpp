@@ -251,6 +251,33 @@ c_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/12_IO.cpp.s
 .PHONY : 12_IO.cpp.s
 
+13initializer_list.o: 13initializer_list.cpp.o
+
+.PHONY : 13initializer_list.o
+
+# target to build an object file
+13initializer_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13initializer_list.cpp.o
+.PHONY : 13initializer_list.cpp.o
+
+13initializer_list.i: 13initializer_list.cpp.i
+
+.PHONY : 13initializer_list.i
+
+# target to preprocess a source file
+13initializer_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13initializer_list.cpp.i
+.PHONY : 13initializer_list.cpp.i
+
+13initializer_list.s: 13initializer_list.cpp.s
+
+.PHONY : 13initializer_list.s
+
+# target to generate assembly for a file
+13initializer_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/13initializer_list.cpp.s
+.PHONY : 13initializer_list.cpp.s
+
 15_Abstract_Class.o: 15_Abstract_Class.cpp.o
 
 .PHONY : 15_Abstract_Class.o
@@ -947,6 +974,9 @@ help:
 	@echo "... 12_IO.o"
 	@echo "... 12_IO.i"
 	@echo "... 12_IO.s"
+	@echo "... 13initializer_list.o"
+	@echo "... 13initializer_list.i"
+	@echo "... 13initializer_list.s"
 	@echo "... 15_Abstract_Class.o"
 	@echo "... 15_Abstract_Class.i"
 	@echo "... 15_Abstract_Class.s"

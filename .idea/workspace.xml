@@ -33,23 +33,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="955cd399-6a15-44de-bcdd-55f2fefc0669" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_Thread_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/17_Thread_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_Map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/19_Map.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_vector.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_list_deque_queue_stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/21_list_deque_queue_stack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29_Copy_Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/29_Copy_Test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Const_Constexpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2_Const_Constexpr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_Tuple.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7_Tuple_vec_array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_SmartPointer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/9_SmartPointer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_Abstract_Class.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/15_Abstract_Class.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
@@ -99,7 +89,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -219,7 +209,7 @@
       <workItem from="1614310392038" duration="12292000" />
       <workItem from="1614580114966" duration="29121000" />
       <workItem from="1615297205094" duration="1403000" />
-      <workItem from="1615346185663" duration="16658000" />
+      <workItem from="1615346185663" duration="19161000" />
     </task>
     <servers />
   </component>
@@ -398,22 +388,22 @@
     <state width="1210" height="445" key="GridCell.Tab.1.right/0.23.1600.1043/-442.-1417.2560.1417@-442.-1417.2560.1417" timestamp="1608121941932" />
     <state width="1236" height="484" key="GridCell.Tab.1.right/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615187923601" />
     <state width="1236" height="484" key="GridCell.Tab.1.right/442.1463.1600.1043/68.23.2492.1417@68.23.2492.1417" timestamp="1614601519302" />
-    <state x="518" y="230" key="SettingsEditor" timestamp="1615542755972">
+    <state x="518" y="230" key="SettingsEditor" timestamp="1615797567190">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="76" y="-1210" key="SettingsEditor/0.23.1600.1043/-442.-1417.2560.1417@-442.-1417.2560.1417" timestamp="1608107787922" />
-    <state x="518" y="230" key="SettingsEditor/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615542755972" />
+    <state x="518" y="230" key="SettingsEditor/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615797567190" />
     <state x="766" y="1615" key="SettingsEditor/442.1463.1600.1043/0.23.2560.1417@442.1463.1600.1043" timestamp="1611052163211" />
     <state x="565" y="230" key="SettingsEditor/442.1463.1600.1043/60.23.2500.1417@60.23.2500.1417" timestamp="1614688607792" />
     <state x="575" y="230" key="SettingsEditor/442.1463.1600.1043/72.23.2488.1417@72.23.2488.1417" timestamp="1614565317012" />
-    <state x="797" y="234" width="973" height="1002" key="find.popup" timestamp="1615470614743">
+    <state x="797" y="234" width="973" height="1002" key="find.popup" timestamp="1615794489630">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="355" y="-1206" width="972" height="1000" key="find.popup/0.23.1600.1043/-442.-1417.2560.1417@-442.-1417.2560.1417" timestamp="1610373071470" />
     <state x="355" y="-1206" width="973" height="1002" key="find.popup/42.23.1558.1043/-442.-1417.2560.1417@-442.-1417.2560.1417" timestamp="1607329540103" />
     <state x="527" y="178" width="592" height="737" key="find.popup/42.23.1558.1043/-442.-1417.2560.1417@42.23.1558.1043" timestamp="1607328925065" />
     <state x="355" y="-1206" width="972" height="1000" key="find.popup/44.23.1556.1043/-442.-1417.2560.1417@-442.-1417.2560.1417" timestamp="1607330092753" />
-    <state x="797" y="234" width="973" height="1002" key="find.popup/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615470614743" />
+    <state x="797" y="234" width="973" height="1002" key="find.popup/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615794489630" />
     <state x="940" y="1618" width="608" height="737" key="find.popup/442.1463.1600.1043/0.23.2560.1417@442.1463.1600.1043" timestamp="1611544840428" />
     <state x="840" y="234" width="951" height="1002" key="find.popup/442.1463.1600.1043/60.23.2500.1417@60.23.2500.1417" timestamp="1614688576357" />
     <state x="844" y="234" width="948" height="1002" key="find.popup/442.1463.1600.1043/68.23.2492.1417@68.23.2492.1417" timestamp="1614651155731" />

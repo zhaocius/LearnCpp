@@ -19,10 +19,13 @@
 #include "common/structs.h"
 #include "22_friend.cpp"
 
+
 using namespace std;
 int main()
 {
     test_friend();
     return 0;
+
+    Box box;
 }
 
