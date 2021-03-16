@@ -28,7 +28,7 @@ typedef struct Malloc_Test
         p = (char *) malloc(sizeof(char) * 100000);
     }
 
-    ~Malloc_Test()
+    ~Malloc_Test()    //key 绝不在构造和析构过程中调用 virtual 函数（因为这类调用从不下降至 derived class
     {
         free(p);
     }
@@ -53,13 +53,43 @@ public:
     New_Test(const New_Test &orig) : id(orig.id), page(orig.page), ptr(new int(*orig.ptr))
     {}
 
-    ~New_Test()   //析构函数不得抛出异常
+    ~New_Test()   //key 别让异常逃离析构函数（析构函数应该吞下不传播异常，或者结束程序，而不是吐出异常；如果要处理异常应该在非析构的普通函数处理）
     {
         delete ptr;
     }
 
     int get_page() const; //key 常量成员函数,作用在this上，不可以修改指向对象的内容
     int get_id();
+};
+
+class Bean_test{
+private:
+    int width;
+    const int height;    //key const 修饰的field必须在构造函数初始化
+    const static int a ;  //key const static修饰的field可以在外部初始化
+
+public:
+    Bean_test(int w ,int h):width(w),height(h){}
+
+    int getWidth() const  //key const 修饰的函数，内部不允许修改普通变量。允许修改static变量
+    {
+        return width;
+    }
+
+    void setWidth(int width)
+    {
+        Bean_test::width = width;
+    }
+
+    int getHeight() const
+    {
+        return height;
+    }
+
+    void setHeight(int height)
+    {
+        Bean_test::height = height;
+    }
 };
 
 
@@ -73,6 +103,8 @@ public:
     char* p;
 };
 const Copy_Test operator*(const Copy_Test&,const Copy_Test&); //key 需要定义在class外面
+
+
 
 template <class T>
 typedef struct Initializer_List{

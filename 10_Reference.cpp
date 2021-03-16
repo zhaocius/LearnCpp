@@ -22,11 +22,10 @@ void ref_test() {
 void ref_test1(){
     int a = 0;
     const int b = 0;
-    const int &r = a;   // 允许 const绑定到普通int上
-    const int &r1 = 9;  // r1是一个常量引用
-    //int &r2 = 9;   //key 普通引用不可以绑定常量
+    const int &r = a;   //key 允许const绑定到普通int上
+    const int &r1 = b;  // r1是一个常量引用
 
-//    r1 = 3;  //key 常量引用不可以绑定别的
+//    r = 3;  //key a的值不能通过常量引用r1改变
 //    int &r3 = b; //key 非常量引用不可以指向一个常量
 }
 

@@ -7,7 +7,7 @@
 //key copy assignment运算符
 Copy_Test & Copy_Test::operator=(const Copy_Test &rhs) //key assignment操作符返回一个ref
 {
-    if(this == &rhs)
+    if(this == &rhs)   //key 处理自我赋值
         return *this;
 
     a = rhs.a;

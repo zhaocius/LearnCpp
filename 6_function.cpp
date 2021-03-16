@@ -5,7 +5,7 @@
 #include "common/structs.h"
 
 //传递的是拷贝
-Malloc_Test test_return(){  //key 返回的是局部对象的拷贝，而test对应的地址已经无效
+Malloc_Test test_return(){  //key 返回的是局部对象的拷贝，而malloc_Test对应的地址已经无效
     Malloc_Test malloc_Test;
     malloc_Test.a = 3;
     char aar[] ={'1','2','3','\0'};
@@ -13,7 +13,7 @@ Malloc_Test test_return(){  //key 返回的是局部对象的拷贝，而test对
     return malloc_Test;
 }
 
-Malloc_Test* test_return_ptr(){  //key 不要返回局部对象的指针
+Malloc_Test* test_return_ptr(){  //key 不要返回局部对象的指针！！！！！！！
     Malloc_Test malloc_Test;
     malloc_Test.a = 3;
     char aar[] ={'1','2','3','\0'};
@@ -21,7 +21,7 @@ Malloc_Test* test_return_ptr(){  //key 不要返回局部对象的指针
     return &malloc_Test;
 }
 
-Malloc_Test& test_return_ref(){  //key 不要返回局部对象的引用
+Malloc_Test& test_return_ref(){  //key 不要返回局部对象的引用！！！！！
     Malloc_Test malloc_Test;
     malloc_Test.a = 3;
     char aar[] ={'1','2','3','\0'};
@@ -29,8 +29,9 @@ Malloc_Test& test_return_ref(){  //key 不要返回局部对象的引用
     return malloc_Test;
 }
 
-
-void test_obj(Malloc_Test malloc_Test){   //key 形参是对应实参的拷贝，比较低效，有的类甚者不支持。
+//key 形参是对应实参的拷贝，比较低效，有的类甚者不支持。
+//key 实参如果是子类，则无法显示子类的特性！！！
+void test_obj(Malloc_Test malloc_Test){
     malloc_Test.a = 9;
     malloc_Test.p[2]=9;
 }
@@ -41,6 +42,10 @@ void test_ref(Malloc_Test& malloc_Test){   //key 引用形参是对应实参的�
     malloc_Test.p[2]=10;
 }
 
+void test_const_ref(const Malloc_Test& malloc_Test){   //key 推荐 const ref
+
+}
+
 void test_p(Malloc_Test* malloc_Test){  //key 拷贝的是指针的值，实参和形参是两个不同的指针，指向同一个地址。
 
     malloc_Test->a = 9;
@@ -49,7 +54,7 @@ void test_p(Malloc_Test* malloc_Test){  //key 拷贝的是指针的值，实参�
 }
 
 
-void function_test()
+void return_test()
 {
     Malloc_Test malloc_Test;
     malloc_Test.a = 1;
@@ -66,5 +71,4 @@ void function_test()
     printf("main %d \n",malloc_Test.a);
     printf("main %c \n",malloc_Test.p[2]);
 }
-
 

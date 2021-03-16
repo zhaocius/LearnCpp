@@ -35,18 +35,14 @@
     <list default="true" id="955cd399-6a15-44de-bcdd-55f2fefc0669" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Reference.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/10_Reference.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15_Abstract_Class.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/15_Abstract_Class.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_test.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29_Copy_Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/29_Copy_Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Const_Constexpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2_Const_Constexpr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_cast.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/5_cast.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6_function.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Tuple_vec_array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7_Tuple_vector_array.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/structs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +205,7 @@
       <workItem from="1614310392038" duration="12292000" />
       <workItem from="1614580114966" duration="29121000" />
       <workItem from="1615297205094" duration="1403000" />
-      <workItem from="1615346185663" duration="19161000" />
+      <workItem from="1615346185663" duration="24805000" />
     </task>
     <servers />
   </component>
@@ -235,6 +231,10 @@
     <state x="1034" y="540" key="#com.intellij.fileTypes.FileTypeChooser/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1612328487611" />
     <state x="1076" y="540" key="#com.intellij.fileTypes.FileTypeChooser/442.1463.1600.1043/70.23.2490.1417@70.23.2490.1417" timestamp="1614594408718" />
     <state x="1082" y="540" key="#com.intellij.fileTypes.FileTypeChooser/442.1463.1600.1043/80.23.2480.1417@80.23.2480.1417" timestamp="1614589360476" />
+    <state x="1659" y="434" key="#com.intellij.ide.util.MemberChooser" timestamp="1615874255896">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1659" y="434" key="#com.intellij.ide.util.MemberChooser/442.1463.1600.1043/0.23.2560.1417@0.23.2560.1417" timestamp="1615874255896" />
     <state x="551" y="583" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614848874500">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
