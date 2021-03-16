@@ -5,8 +5,9 @@
 #include <map>
 
 void map_test(){
-    std::map<int,int> test{{1,2},{2,3},{3,4}};
-    printf("size = %d",test.size());
-    std::pair<int,int> test1{1,2};
-    printf("first %d, second %",test1.first,test1.second);
+    std::map<int,int> map0{{1,2},{2,3},{3,4}};
+    printf("size = %d",map0.size());
+    std::pair<int,int> pair0{1,2};
+    printf("first %d, second %",pair0.first,pair0.second);
+    map0.insert(pair0);
 }
