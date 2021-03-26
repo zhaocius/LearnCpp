@@ -15,9 +15,9 @@ public:
         return 0;
     }
 
-    Box();
+    Box(){};
 
-    virtual ~Box();  //key 虚析构函数，可防止内存泄漏
+    virtual ~Box(){};  //key 虚析构函数，可防止内存泄漏
 };
 
 class Rectangle : public Box

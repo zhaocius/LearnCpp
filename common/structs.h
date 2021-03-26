@@ -85,11 +85,6 @@ public:
     {
         return height;
     }
-
-    void setHeight(int height)
-    {
-        Bean_test::height = height;
-    }
 };
 
 

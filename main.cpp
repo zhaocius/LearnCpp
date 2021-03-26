@@ -18,9 +18,9 @@
 #include "common/Singleton.h"
 #include "common/structs.h"
 
+
 int main()
 {
     return 0;
-
 }
 
