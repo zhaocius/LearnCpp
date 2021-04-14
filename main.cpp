@@ -14,13 +14,11 @@
 #include <map>
 #include <future>
 #include <zconf.h>
+#include <chrono>
 
 #include "common/Singleton.h"
 #include "common/structs.h"
 
-
-int main()
-{
+int main(){
     return 0;
 }
-

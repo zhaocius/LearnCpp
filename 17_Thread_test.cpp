@@ -21,8 +21,15 @@ int test2(){
     return 100;
 }
 
+int test3(){
+    std::cout << "test3 pid= " << getpid() << std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::cout << "test3 tid=" << std::this_thread::get_id() << std::endl;
+    return 100;
+}
+
 void async_test(){
-    std::future<int> async_test= std::async(std::launch::async,test2);
+    std::future<int> async_test= std::async(std::launch::async,test3);
     test1();
     int a = async_test.get();
     printf("async_test: %d",a);
