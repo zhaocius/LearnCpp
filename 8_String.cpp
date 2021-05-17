@@ -29,7 +29,7 @@ void string()
     for(auto beg = str6.begin();beg != str6.end();++beg){  //key 使用iter遍历
         *beg = std::toupper(*beg);
     }
-    printf("%s \n", str6.c_str());
+    printf("%s \n", str6.c_str());   //key 如果之后一直想试用这个c_str，应该拷贝一份，因为string改变后，该指针也变了。
     for(auto &c:str6){   //key 使用foreach遍历，使用引用
         c = std::tolower(c);
     }

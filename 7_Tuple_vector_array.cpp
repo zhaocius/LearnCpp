@@ -55,17 +55,13 @@ void tuple_test() {
     g[0] == &g[0][0]; //g[0]代表g[0][0]的地址。
     *g == g[0];
     **g == g[0][0];
-
     int (*ppp)[3] =g;    //key ---编译器就知道 ppp+1是在地址上+ 3*4个字节
     g[1][2] == *(*(g+1)+2);
     ppp[1][2] == *(*(ppp+1)+2);
 
 
-    int *i[10]; //key 含有10个整形指针的数组；
-    int (*j)[10]; //key 指向一个数组的指针
-
-
-    int *p = new int[6]{1,2,3,4,5,6};  //动态数组
+    int arr5[10];
+    int (*pppp)[10] = &arr5; //key 含有10个整形指针的数组；
 }
 
 
@@ -84,29 +80,37 @@ void vector_test() {
     }
     std::cout << vec.size() << std::endl;
     for (int i = 0; i < 5; i++) {
-        std::cout << vec[i] << std::endl;
+        std::cout << vec[i] << std::endl;   //key 不检查下标 尽量不使用下标访问
     }
+
+
 
     std::vector<int>::iterator v = vec.begin();
     while (v != vec.end()) {
         std::cout << *v << std::endl;
-        *v=3; //interator 能改变元素。
+        *v=3; //key iterator 能改变元素。
         v++;
     }
+
+    for(auto &item:vec){ //key 范围for语句，通过 & 能改变元素。
+        item *=2;
+    }
+
 
     std::vector<int>::const_iterator  c_v = vec.begin();
     while (c_v != vec.end()) {
         std::cout << *c_v << std::endl;
-//        *c_v=3; //key const_interator 不能改变元素。
+//        *c_v=3; //key const_iterator 不能改变元素。
         c_v++;
     }
 
     auto c_v1 = vec.cbegin();
     while (c_v1 != vec.end()) {
         std::cout << *c_v1 << std::endl;
-//        *c_v1=3; //key const_interator 不能改变元素。
+//        *c_v1=3; //key const_iterator 不能改变元素。
         c_v1++;
     }
+
 
     //key 存放自定义对象，还是存指针好一点，存对象的话，会涉及到拷贝问题。
     std::vector<Malloc_Test *> vec1;
@@ -126,7 +130,6 @@ void vector_test() {
 
     int aaa[4] = {1, 2, 3, 4};
     std::vector<int> vec3(std::begin(aaa), std::end(aaa)); //key 使用数组初始化vector
-
     std::vector<int> vec4(15,3);  //小括号，15个元素，每个元素都是3。
     std::vector<int> vec5{15,3};   // 大括号，2个元素， 15 和 3
     std::vector<int> vec6 = vec5;   //key 副本
@@ -134,25 +137,21 @@ void vector_test() {
 
 
 
-    //vector pop 和 erase，不改变capicity，只改变size
+    //vector pop_back 和 erase，不改变capicity，只改变size
     //remove改变size，不建议使用
     vec5.erase(vec5.begin() + 1);//erase the 1th element
     vec5.erase(vec5.begin(), vec5.begin() + 1);
     vec5.pop_back();
-    for (int i = 0; i < vec5.size(); i++) {
-        std::cout << vec5[i] << std::endl;   //下标不会检查范围
-    }
 
     for (int i = 0; i < vec5.size(); i++) {
-        std::cout << vec5.at(i) << std::endl;//at()会检查范围,超了会报错。
+        std::cout << vec5.at(i) << std::endl;//key at(index)会检查范围,超了会报错。
     }
 }
 
 void array_test(){
-    std::array<int,10> array0 = {1,2,3,4,5};
-
     std::array<int,5> array1 = {1,2,3,4,5};
     std::array<int,5> array2 = array1; //正确，array支持拷贝。
+
 
     std::array<int,5> array3;
     array3.swap(array1);// 比拷贝快。

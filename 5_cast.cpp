@@ -1,9 +1,8 @@
 #include <iostream>
-void cast_test(){
 
-    /*
-     *
-     static_cast
+
+/*
+static_cast
 用于非多态类型的转换
 不执行运行时类型检查（转换安全性不如 dynamic_cast）
 通常用于转换数值数据类型（如 float -> int）
@@ -29,9 +28,10 @@ reinterpret_cast
 也允许将任何整数类型转换为任何指针类型以及反向转换。
 reinterpret_cast 运算符不能丢掉 const、volatile 或 __unaligned 特性。
 reinterpret_cast 的一个实际用途是在哈希函数中，即，通过让两个不同的值几乎不以相同的索引结尾的方式将值映射到索引。
-     *
-     * */
+*/
 
+
+void static_cast_test(){
     int a = 3;
     int b = 5;
     double c = static_cast<double>(b)/a;  // static_cast 较大算数类型赋给小类型
@@ -40,16 +40,18 @@ reinterpret_cast 的一个实际用途是在哈希函数中，即，通过让两
     void *p = &a;
     int * pp = static_cast<int*>(p);  //static_cast 找回void* 指针为 int *
     std::cout<< *pp << std::endl;
+}
 
+void const_cast_test(){
+    const char* pc;
+    char* p = const_cast<char* >(pc);
+}
 
-    //const_cast
-
-
+void reinterpret_cast_test(){
     //reinterpret_cast 运行时才检查
     int *ip;
     char *pc = reinterpret_cast<char *>(ip);   // C写法 char* pc = (char *)ip
     std::string str(pc); // 报错！！！！！ pc真正指向的是一个int
-
 
 }
 

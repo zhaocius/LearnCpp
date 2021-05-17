@@ -4,6 +4,14 @@
 const int WIDTH = 5;     //限定一个变量为只读。
 constexpr int HEIGHT = 5; //这是一个常量，编译期间就确定了。
 
+
+void const_param_test(int*);
+void const_param_test(int* const);// key 顶层const 重复申明
+
+void const_param_test1(int*);
+void const_param_test1(const int*);// key 底层const 新函数
+
+
 void const_test() {
 
     double rates[5] = {88.99, 100.12, 59.45, 183.11, 340.5};
