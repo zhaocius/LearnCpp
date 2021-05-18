@@ -107,4 +107,25 @@ typedef struct Initializer_List{
     Initializer_List(std::initializer_list<T> l):v(l){}
 };
 
+
+
+
+class Base
+{
+public:
+    Base();
+    ~Base();
+    void print();
+};
+
+
+class Inherit :public Base
+{
+public:
+    Inherit();
+    ~Inherit();
+
+    void show();
+};
+
 #endif //C_TEST_STRUCTS_H
