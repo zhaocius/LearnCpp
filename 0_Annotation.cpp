@@ -6,7 +6,7 @@ void annotation()
 {
     std::cout << "hello";
 #if 0
-    这是一个注视
+    这是一个注释
 #endif
 }
 
