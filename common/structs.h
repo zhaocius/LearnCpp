@@ -102,7 +102,7 @@ const Copy_Test operator*(const Copy_Test&,const Copy_Test&); //key 需要定义
 
 
 template <class T>
-typedef struct Initializer_List{
+struct Initializer_List{
     std::vector<T> v;
     Initializer_List(std::initializer_list<T> l):v(l){}
 };

@@ -40,7 +40,7 @@ void tuple_unique_ptr_test()
     up[0]=1; //up定义了下标运算
 }
 
-//key shared_ptr动态分配数组,需要传已给删除器
+//key shared_ptr动态分配数组,需要传删除器
 void tuple_shared_ptr_test()
 {
     std::shared_ptr<int> sp(new int[10](), std::default_delete<int[]>());

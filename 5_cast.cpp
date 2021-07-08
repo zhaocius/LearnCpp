@@ -10,8 +10,6 @@ static_cast
 可以在整个类层次结构中移动指针，子类转化为父类安全（向上转换），父类转化为子类不安全（因为子类可能有不在父类的字段或方法）
 向上转换是一种隐式转换。
 */
-
-
 void static_cast_test(){
     int a = 3;
     int b = 5;
@@ -24,11 +22,9 @@ void static_cast_test(){
 }
 
 
-
 /*const_cast
 用于删除 const、volatile 和 __unaligned 特性（如将 const int 类型转换为 int 类型 ）
 */
-
 void const_cast_test(){
     const char* pc;
     char* p = const_cast<char* >(pc);
@@ -42,7 +38,6 @@ dynamic_cast
 对不明确的指针的转换将失败（返回 nullptr），但不引发异常
 可以在整个类层次结构中移动指针，包括向上转换、向下转换
  */
-
 void dynamic_cast_test(){
     Base* pbase = new Inherit();
 //    Inherit* pInherit = dynamic_cast<Inherit*>(pbase); //key 只有该类型至少含有虚函数时(最简单是基类析构函数为虚函数)，才能进行这种转换。否则，编译器会报错。

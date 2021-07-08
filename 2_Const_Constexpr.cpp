@@ -51,22 +51,13 @@ void constexpr_test()
 
 }
 
-void ptr_of_ptr(const Bean_test** bean){  //key !!!! why
-    *bean = new Bean_test(3,3);
-}
-
-void test_ptr_of_ptr(){
-    const Bean_test* p = nullptr;
-    ptr_of_ptr(&p);
-    printf("%d, ",p->getWidth());
-}
-
 const int& return_const(){   //key 不允许修改返回值，必须使用const 接收return值。
     return 0;
 }
 void return_const_test(){
     const int a = return_const();
 }
+
 
 
 

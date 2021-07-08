@@ -26,9 +26,7 @@ void unique_ptr_test()
 
     std::unique_ptr<Malloc_Test> up0(new Malloc_Test()); //key 直接使用
     std::unique_ptr<Malloc_Test> up1 = std::make_unique<Malloc_Test>(); //key 使用make_unique代替new
-
     std::unique_ptr<Malloc_Test> up4 = std::make_unique<Malloc_Test>(1); //key 使用make_unique代替new
-
     std::unique_ptr<std::string> up5 = std::make_unique<std::string>(2, 'c'); //key 使用make_unique代替new
 
     std::vector<std::string> list = {"1", "2"};
@@ -84,7 +82,7 @@ void shared_ptr_test1()
     //现在计数为1
     int i = *p;  //正确
 
-    int *x(new int(1024));
+    int* x = new int(1024);
     process(std::shared_ptr<int>(x)); //进入process,出来后内存被释放。
     int j = *x;  //key x是空悬指针。 被智能指针接管后，就不要再使用内置指针了。
 

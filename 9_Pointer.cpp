@@ -1,4 +1,5 @@
 #include <iostream>
+#include "common/structs.h"
 
 
 void pointer_test(){
@@ -40,7 +41,6 @@ void pointer_test(){
 //    int *p3 = &a; //key p3是普通指针，不能指向常量
     const int * p4 = &a;
 
-
     int arr[] = {1,2,3,4,5};
     int * p5 = &arr[5];
     int * p6 = std::end(arr);
@@ -56,4 +56,27 @@ void function(int a ){
 void testFunctionPointer(){   //key 函数指针
     pf = function;
     pf(1);
+}
+
+
+void ptr_of_ptr(Bean_test** bean){  //key !!!! 为什么要使用二级指针？
+    *bean = new Bean_test(3,3);
+}
+
+void test_ptr_of_ptr(){
+    Bean_test* p = nullptr;
+    ptr_of_ptr(&p);
+    printf("%d, ",p->getWidth());
+}
+
+//key !!!! 实参是一个空指针p，形参为bean，把p赋给bean，然后执行bean = new Bean()；这时bean指向一段内存。
+//key !!!! 但是因为形参改变不会影响到实参的值，p的值并没改变，还是NULL，所以下面拷贝不成功。
+void ptr(Bean_test* bean){
+    bean = new Bean_test(3,3);
+}
+
+void test_ptr(){
+    Bean_test* p = nullptr;
+    ptr(p);
+    printf("%d, ",p->getWidth());
 }
